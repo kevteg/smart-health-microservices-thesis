@@ -1,4 +1,4 @@
-
+from django.views.generic import View
 import logging
 from django.http import JsonResponse
 from django.utils.decorators import method_decorator
@@ -13,7 +13,7 @@ decorators = [csrf_exempt]
 class medView(View):
 
     def dispatch(self, request, *args, **kwargs):
-        data = {'med-records': '1'}
+        data = {'med-records-gateway': '1'}
         response = JsonResponse(data, status=200)
         response["Access-Control-Allow-Origin"] = '*'
         return response

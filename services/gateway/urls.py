@@ -1,8 +1,8 @@
-from django.contrib import admin
+from gateway.views.med_records import medView
 from django.urls import path
-"""
+from django.conf.urls import url, include
+#3333
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('med-records/', medView.as_view())
 ]
-"""
-print("HOLA SOY EL GATEWAY")
