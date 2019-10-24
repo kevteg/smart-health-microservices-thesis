@@ -1,8 +1,8 @@
 import os
 from django.conf.urls import url, include
 from django.urls import path
-APP = os.environ['APP']
+DJANGO_CONFIGURATION = os.environ['DJANGO_CONFIGURATION']
 
 urlpatterns = [
-    path('',  include(f'{APP}.urls'))
+    path('',  include(f'{DJANGO_CONFIGURATION}.urls'))
 ]

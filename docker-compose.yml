@@ -1,18 +1,26 @@
 version: '2'
 
 services:
-    med_records-db:
-        image: mongo
-        ports:
-            - 8081:8081
-        volumes:
-            - '.:/home'
-    gateway-db:
+    med_records_db:
         image: postgres
         ports:
-            - '5432:5432'
+            - 6432:5432
         volumes:
             - '.:/home'
+        environment:
+            - POSTGRESS_USER=medrecords
+            - POSTGRESS_PASSWORD=devpass
+            - POSTGRES_DB=med_records_db
+    gateway_db:
+        image: postgres
+        ports:
+            - 5432:5432
+        volumes:
+            - '.:/home'
+        environment:
+            - POSTGRESS_USER=gatewaey
+            - POSTGRESS_PASSWORD=devpass
+            - POSTGRES_DB=gateway_db
     gateway: 
         extends:
             file: docker-template.yml
@@ -23,8 +31,12 @@ services:
         ports:
             - 3333:3333
         environment: 
-            - APP=gateway
-    med-records:
+            - DJANGO_CONFIGURATION=Gateway
+            - DJANGO_SETTINGS_MODULE=settings
+            - POSTGRESS_USER=gatewaey
+            - POSTGRESS_PASSWORD=devpass
+            - DB_NAME=gateway_db
+    med_records:
         extends:
             file: docker-template.yml
             service: base
@@ -34,4 +46,8 @@ services:
         ports:
             - 4444:4444
         environment: 
-            - APP=med_records
+            - DJANGO_CONFIGURATION=Medrecords
+            - DJANGO_SETTINGS_MODULE=settings
+            - POSTGRESS_USER=medrecords
+            - POSTGRESS_PASSWORD=devpass
+            - DB_NAME=med_records_db

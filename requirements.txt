@@ -1,7 +1,5 @@
 django==2.2.6
 graphene-django>=2.0
-pymongo==3.9
 gunicorn==19.9.0
-mongoengine==0.17.0
-mongomock==3.16.0
-graphene-mongo==0.2.8
+django-configurations==2.1
+psycopg2-binary==2.8.3
