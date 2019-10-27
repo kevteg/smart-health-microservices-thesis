@@ -1,0 +1,418 @@
+Enfermedades infecciosas intestinales
+Cólera
+Fiebre tifoidea
+Fiebre paratifoidea
+Shigelosis
+Intoxicación alimentaria
+Amebiasis
+Infecciones intestinales debidas a otros organismos especificados
+Diarrea y gastroenteritis de presunto origen infeccioso
+Tuberculosis
+Tuberculosis pulmonar
+Otras tuberculosis del aparato respiratorio
+Tuberculosis del sistema nervioso
+Tuberculosis de los intestinos, el peritoneo y los ganglios mesentéricos
+Tuberculosis de huesos y articulaciones
+Tuberculosis del  aparato genitourinario
+Las demás tuberculosis
+Otras enfermedades bacterianas
+Peste
+Brucelosis
+Lepra
+Difteria
+Tos ferina
+Escarlatina y erisipela
+Infección meningocócica
+Otros tétanos
+Septicemia
+Las demás enfermedades bacterianas del grupo
+Infecciones con modo de transmisión predominantemente sexual
+Sífilis congénita
+Sífilis precoz
+Otras sífilis
+Infección gonocócica
+Enfermedades de transmisión sexual debidas a clamidias
+Otras infecciones con un modo de transmisión predominantemente sexual
+Otras enfermedades infecciosas y parasitarias y efectos tardíos de las enfermedades infecciosas y parasitarias
+Otras enfermedades debidas a espiroquetas
+Fiebres recurrentes
+Micosis
+Esquistosomiasis
+Otras infecciones debidas a trematodos
+Equinococosis
+Dracontiasis
+Oncocercosis
+Filariasis
+Anquilostomiasis y necatoriasis
+Otras helmintiasis
+Secuelas de tuberculosis
+Secuelas de poliomielitis
+Secuelas de lepra
+Secuelas de otras enfermedades infecciosas y parasitarias y de las no especificadas
+Las demás enfermedades infecciosas y parasitarias del grupo
+Enfermedades víricas
+Poliomielitis aguda
+Viruela
+Sarampión
+Rubéola
+Fiebre amarilla
+Fiebre del dengue
+Fiebre del dengue hemorrágico
+Enfermedad por virus de la inmunodeficiencia humana
+Encefalitis viral transmitida por artrópodos
+Hepatitis aguda tipo B
+Otras hepatitis virales
+Rabia
+Tracoma
+Otras fiebres virales transmitidas por artrópodos y fiebres hemorrágicas virales
+Infecciones herpéticas
+Varicela y herpes zoster
+Parotiditis infecciosa
+Otras enfermedades causadas por clamidias
+Las demás enfermedades víricas
+Rickettsiosis y otras enfermedades debidas a protozoarios
+Tifus epidémico transmitido por piojos
+Otros tifus
+Otras rickettsiosis
+Paludismo
+Leishmaniasis
+Tripanosomiasis
+Tumores malignos del labio, de la cavidad bucal y de la faringe
+Tumores malignos de los órganos digestivos
+Tumor maligno del esófago
+Tumor maligno del estómago
+Tumor maligno del intestino delgado
+Tumor maligno del colon
+Tumor maligno de la unión rectosigmoidea, del recto, del ano y del conducto anal
+Tumor maligno del hígado y de las vías biliares intrahepáticas
+Tumor maligno del páncreas
+Los demás tumores malignos de órganos digestivos
+Tumor maligno de órganos respiratorios e intratorácicos
+Tumor maligno de la laringe
+Tumor maligno de la tráquea, de los bronquios y del pulmón
+Los demás tumores malignos de órganos respiratorios e intratorácicos
+Tumores malignos de los huesos, de los cartílagos articulares, del tejido conjuntivo, de la piel y de la mama
+Tumores malignos de los huesos y de los cartílagos articulares
+Melanoma maligno de la piel
+Otros tumores malignos de la piel
+Tumor maligno de la mama
+Tumores malignos de los tejidos mesoteliales y de los tejidos   blandos
+Tumores malignos de los órganos genitourinarios
+Tumor maligno del cuello del útero
+Tumor maligno de la placenta
+Tumor maligno del cuerpo del útero y del útero, parte no especificada
+Tumor maligno del ovario
+Tumor maligno de otros órganos genitales femeninos y de los no especificados
+Tumor maligno de la próstata
+Tumor maligno del testículo
+Tumor maligno de la vejiga urinaria
+Otros tumores malignos de los órganos genitales masculinos
+Otros tumores malignos de las vías  urinarias
+Tumor maligno de la vulva y de la vagina
+Tumores malignos de otros sitios y de los no especificados
+Tumor maligno del encéfalo
+Tumor maligno de las meninges y de otras partes del sistema nervioso central
+Tumores malignos del ojo y sus anexos
+Los demás tumores malignos de otros sitios y los no especificados
+Tumores malignos del tejido linfático, de los órganos hematopoyéticos y tejidos afines
+Enfermedad de Hodgkin
+Linfoma no Hodgkin
+Mieloma múltiple y tumores malignos de células plasmáticas
+Leucemias
+Los demás tumores malignos del tejido linfático, órganos hematopoyéticos y tejidos afines
+Tumores malignos (primarios) de sitios múltiples independientes
+Tumores in situ
+Carcinoma in situ del cuello del útero
+Las demás tumores in situ
+Tumores Benignos
+Tumores benignos de la piel
+Tumor benigno de la mama
+Leiomioma uterino
+Tumor benigno del ovario
+Tumor benigno de los órganos urinarios
+Tumor benigno del encéfalo y de otras partes del sistema nervioso central
+Tumor benigno de la glándula tiroides
+Los demás tumores benignos
+Tumores de comportamiento incierto o desconocido
+Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan el mecanismo de la inmunidad
+Anemias por deficiencia de hierro
+Otras anemias
+Ciertos trastornos que afectan el mecanismo de la inmunidad
+Las demás enfermedades de la sangre, órganos hematopoyéticos y trastornos de la inmunidad
+Enfermedades endocrinas y metabólicas
+Trastornos tiroideos relacionados con la deficiencia de yodo
+Tirotoxicosis
+Otros trastornos de la tiroides
+Diabetes mellitus
+Trastornos del metabolismo, de las lipoproteínas y otras lipidemias
+Obesidad
+Depleción del volumen
+Secuelas de hiperalimentación
+Las demás enfermedades endocrinas y metabólicas
+Desnutrición y otras deficiencias nutricionales
+Kwashiorkor
+Marasmo nutricional
+Otras desnutriciones proteinocalóricas
+Deficiencia de vitamina A
+Otras deficiencias vitamínicas
+Secuelas de la desnutrición y otras deficiencias nutricionales
+Las demás deficiencias nutricionales
+Trastornos mentales y del comportamiento
+Demencia
+Otros trastornos mentales y del comportamiento debidos al uso del alcohol
+Síndrome de dependencia del alcohol
+Trastornos mentales y del comportamiento debidos al uso de otras sustancias psicoactivas
+Esquizofrenia, trastornos esquizotípicos y trastornos delirantes
+Trastornos del humor
+Trastornos neuróticos, trastornos relacionados con el estrés y trastornos somatomorfos
+Síndromes del comportamiento asociados con alteraciones fisiológicas y factores físicos
+Retraso mental
+Los demás trastornos mentales y del comportamiento
+Enfermedades del sistema nervioso
+Meningitis
+Otras enfermedades inflamatorias del sistema nervioso central
+Enfermedad de Parkinson
+Enfermedad de Alzheimer
+Esclerosis múltiple
+Parálisis cerebral y otros síndromes paralíticos
+Epilepsia
+Migraña y otros síndromes de cefalea
+Ataques de isquemia cerebral transitoria y síndromes afines
+Trastornos de los nervios, de las raíces y de los plexos nerviosos
+Las demás enfermedades del sistema nervioso
+Enfermedades del ojo y sus anexos
+Inflamaciones del párpado
+Trastornos de la esclerótica, queratitis y otros trastornos de la córnea
+Glaucoma
+Cataratas
+Otros trastornos del cristalino
+Desprendimiento y desgarro de la retina
+Ceguera y disminución de la agudeza visual
+Conjuntivitis
+Otros trastornos de la conjuntiva
+Trastornos del aparato lagrimal
+Estrabismos
+Otros trastornos de los movimientos binoculares
+Trastornos de la acomodación y de la refracción
+Las demás enfermedades del ojo y sus anexos
+Enfermedades del oído y de la apófisis mastoides
+Otitis media, trastornos de la trompa de eustaquio y mastoiditis
+Otros trastornos del oído medio
+Pérdida de la audición
+Las demás enfermedades del oído y apófisis mastoides
+Fiebre reumática aguda y enfermedades cardíacas reumáticas crónicas
+Fiebre reumática aguda
+Enfermedades reumáticas crónicas del corazón
+Enfermedades hipertensivas
+Enfermedad cardíaca hipertensiva
+Hipertensión esencial
+Las demás enfermedades hipertensivas
+Enfermedades isquémicas del corazón
+Infarto agudo del miocardio
+Las demás enfermedades isquémicas del corazón
+Enfermedades de la circulación pulmonar y otras enfermedades del corazón
+Embolia pulmonar
+Trastornos de la conducción y arritmias cardíacas
+Paro cardíaco
+Insuficiencia cardíaca
+Las demás enfermedades de la circulación pulmonar y otras enfermedades del corazón
+Enfermedades cerebrovasculares
+Hemorragia subaracnoidea
+Hemorragia intraencefálica y otras hemorragias intracraneales no traumáticas
+Infarto cerebral
+Accidente vascular encefálico agudo no especificado como hemorrágico o isquémico
+Aterosclerosis cerebral
+Secuelas de enfermedad cerebrovascular
+Otras enfermedades cerebrovasculares
+Otras enfermedades del aparato circulatorio
+Aterosclerosis
+Otras enfermedades vasculares periféricas
+Embolia y trombosis arteriales
+Otras enfermedades de las arterias, las arteriolas y los vasos capilares
+Flebitis, tromboflebitis, embolias y trombosis venosas
+Venas varicosas de los miembros inferiores
+Hemorroides
+Las demás enfermedades del aparato circulatorio
+Infecciones y otras enfermedades de las vías respiratorias superiores
+Faringitis aguda
+Amigdalitis aguda
+Laringitis y traqueítis agudas
+Otras infecciones agudas de las vías respiratorias superiores
+Pólipo nasal y desviación del tabique nasal
+Rinitis, rinofaringitis y faringitis crónicas
+Sinusitis crónica
+Enfermedades crónicas de las amígdalas y vegetaciones adenoides
+Otros trastornos de la nariz y de los senos paranasales
+Otras enfermedades de las vías respiratorias superiores
+Otras enfermedades del aparato respiratorio
+Bronquitis y bronquiolitis agudas
+Neumonía
+Influenza
+Bronquitis crónica y la no especificada y enfisema
+Asma
+Bronquiectasia
+Enfermedades pulmonares obstructivas crónicas
+Neumoconiosis
+Otras enfermedades pulmonares debidas a agentes externos
+Otras enfermedades de la pleura
+Infección aguda no especificada de las vías respiratorias inferiores
+Las demás enfermedades del aparato respiratorio
+Enfermedades de la cavidad bucal, de las glándulas salivales y de los maxilares
+Caries dental
+Otros trastornos de los dientes y de sus estructuras de sostén
+Otras enfermedades de los maxilares
+Las demás enfermedades de la cavidad bucal, glándulas salivales y de maxilares
+Enfermedades de otras partes del aparato digestivo
+Enfermedades del esófago
+Gastritis y duodenitis
+Otras enfermedades del estómago y del duodeno
+Ulceras gástrica y duodenal
+Enfermedades del apéndice
+Hernia inguinal
+Otras hernias
+Enfermedad de Crohn y colitis ulcerativa
+Ileo paralítico y obstrucción intestinal sin hernia
+Enfermedad diverticular del intestino
+Síndrome del colon irritable y otros trastornos funcionales del instestino
+Enfermedad alcohólica del hígado
+Otras enfermedades del hígado
+Colelitiasis y colecistitis
+Otras enfermedades de los intestinos y del peritoneo
+Pancreatitis aguda y otras enfermedades del páncreas
+Otras enfermedades del sistema digestivo
+Enfermedades de la piel y del tejido  subcutáneo
+Infecciones de la piel y del tejido subcutáneo
+Dermatitis y eczema
+Las demás enfermedades de la piel y tejido subcutáneo
+Enfermedades del sistema osteomuscular y del tejido conjuntivo
+Poliartropatías inflamatorias
+Artrosis
+Deformidades adquiridas de los miembros
+Otros trastornos de las articulaciones
+Trastornos sistémicos del tejido conjuntivo
+Trastornos de los discos cervicales y de otros discos intervertebrales
+Otras dorsopatías
+Trastornos de los tejidos blandos
+Trastornos de la densidad y de la estructura ósea
+Osteomielitis
+Otras enfermedades del sistema osteomuscular y del tejido conjuntivo
+Enfermedades del aparato urinario
+Síndrome nefrítico agudo y síndrome nefrítico rápidamente progresivo
+Otras enfermedades glomerulares
+Insuficiencia renal
+Enfermedades renales tubulointersticiales
+Otras enfermedades renales tubulointersticiales
+Litiasis urinaria
+Cólico renal, no especificado
+Cistitis
+Otras enfermedades del sistema urinario
+Enfermedades de los órganos genitales masculinos
+Hiperplasia de la próstata
+Otros trastornos de la próstata
+Hidrocele y espermatocele
+Prepucio redundante, fimosis y parafimosis
+Esterilidad en el varón
+Otras enfermedades de los órganos genitales masculinos
+Trastornos de la mama
+Enfermedades de los órganos genitales femeninos
+Salpingitis y ooforitis
+Enfermedad inflamatoria del cuello uterino
+Otras enfermedades inflamatorias del útero, de la vagina y de la vulva
+Otras enfermedades pélvicas inflamatorias femeninas
+Endometriosis
+Prolapso genital femenino
+Trastornos no inflamatorios del ovario, de la trompa de falopio y del ligamento ancho
+Trastornos de la menstruación
+Otros trastornos menopáusicos y perimenopáusicos
+Infertilidad femenina
+Otros trastornos del sistema genitourinario femenino
+Trastornos del sistema genitourinario consecutivo a procedimientos no clasificados en otra parte
+Causas obstétricas directas
+Aborto espontáneo
+Aborto médico
+Otro aborto
+Edema, proteinuria y trastornos hipertensivos en el embarazo, parto y puerperio
+Hemorragia precoz del embarazo, placenta previa, desprendimiento prematuro de la placenta y hemorragia anteparto
+Otra atención materna relacionada con el feto y con la cavidad amniótica y con posibles problemas del parto
+Infección de las vías genitourinarias en el embarazo
+Diabetes mellitus en el embarazo
+Trabajo de parto obstruido
+Hemorragia postparto
+Sepsis y otras infecciones puerperales
+Otras complicaciones del puerperio
+Otras complicaciones del embarazo y del parto
+Tétanos obstétrico
+Trastornos mentales y del comportamiento asociados con el puerperio
+Osteomalacia puerperal
+Causas obstétricas directas, excepto aborto
+Muerte obstétrica de causa no especificada
+Parto único espontáneo
+Causas obstétricas indirectas
+Ciertas afecciones originadas en el período perinatal
+Enfermedades de la madre que afectan al feto o al recién nacido
+Complicaciones obstétricas que afectan al feto o recién nacido
+Crecimiento fetal lento, desnutrición fetal y trastornos relacionados con la gestación corta y el bajo peso al nacer
+Traumatismo del nacimiento
+Hipoxia intrauterina y asfixia  del nacimiento
+Dificultad respiratoria del recién nacido y otros trastornos respiratorios originados en el período perinatal
+Enfermedades infecciosas y parasitarias congénitas
+Otras infecciones específicas del período perinatal
+Enfermedad hemolítica del feto y del recién nacido
+Tétanos neonatal
+Las demás afecciones originadas en el período perinatal
+Malformaciones congénitas, deformidades y anomalías cromosómicas
+Anencefalia y malformaciones congénitas similares
+Hidrocéfalo congénito
+Espina bífida
+Otras malformaciones del sistema nervioso
+Malformaciones congénitas del sistema circulatorio
+Fisura del paladar y labio leporino
+Ausencia, atresia y estenosis congénita del intestino delgado
+Otras deformidades del aparato digestivo
+Testículo no descendido
+Otras malformaciones del sistema genitourinario
+Deformidades congénitas de la cadera
+Deformidades congénitas de los pies
+Otras malformaciones congénitas y deformidades del sistema osteomuscular
+Otras malformaciones congénitas
+Anomalías cromosómicas, no clasificadas en otra parte
+Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte
+Fiebre de origen desconocido
+Anormalidades cardíacas
+Retención de orina
+Dolor abdominal y pélvico
+Senilidad
+Síndrome de la muerte súbita infantil
+Paro respiratorio
+Los demás síntomas, signos y hallazgos anormales no clasificados en otra parte
+Accidentes de transporte
+Accidentes de ferrocarril
+Accidentes de tráfico de vehículos de motor
+Accidentes de otros vehículos de carretera
+Accidentes de transporte acuático
+Accidentes de transporte aéreo y espacial
+Los demás accidentes de transporte
+Caídas
+Otros accidentes, incluso los efectos tardíos
+Accidentes debido a factores naturales y del ambiente
+Ahogamiento y sumersión accidentales
+Cuerpo extraño que penetra por el ojo u orificio natural
+Accidente causado por maquinaria y por instrumentos cortantes o punzantes
+Accidente causado por proyectil de arma de fuego
+Secuelas de accidentes de transporte y otros accidentes
+Los demás accidentes y efectos tardíos
+Exposición al humo, fuego y llamas
+Envenenamiento accidental por, y exposición a sustancias nocivas
+Envenenamiento accidental por drogas, medicamentos y productos biológicos
+Envenenamiento accidental por otras sustancias sólidas y líquidas
+Envenenamiento accidental por, y exposición a otros  gases y vapores
+Lesiones autoinfligidas intencionalmente
+Agresiones (homicidios)
+Otra violencia
+Eventos de intención no determinada
+Operaciones de guerra
+Intervención legal
+Drogas, medicamentos y sustancias biológicas causantes de efectos adversos en su uso terapéutico
+Contratiempos durante la atención médica, reacciones anormales y complicaciones ulteriores
+Secuelas de lesiones autoinfligidas
+Agresiones y eventos de intención no determinada

@@ -16,8 +16,8 @@ class Base(Configuration):
     USE_I18N = True
     USE_L10N = True
     USE_TZ = True
-    STATIC_URL = '/static/'
-
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    STATIC_URL = os.path.join(BASE_DIR, 'staticfiles/')
     MIDDLEWARE = [
         'django.middleware.security.SecurityMiddleware',
         'django.contrib.sessions.middleware.SessionMiddleware',
@@ -85,8 +85,8 @@ class Gateway(Base):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRESS_USER'),
-            'PASSWORD': os.environ.get('POSTGRESS_PASSWORD'),
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
             'NAME': os.environ.get('DB_NAME'),
             'HOST': os.environ.get('DB_NAME'),
         }
@@ -97,8 +97,8 @@ class Medrecords(Base):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRESS_USER'),
-            'PASSWORD': os.environ.get('POSTGRESS_PASSWORD'),
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
             'NAME': os.environ.get('DB_NAME'),
             'HOST': os.environ.get('DB_NAME'),
         }
