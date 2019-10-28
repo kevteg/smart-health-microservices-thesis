@@ -42,11 +42,9 @@ class Base(Configuration):
         'graphene_django',
     ]
 
-
     GRAPHENE = {
         'SCHEMA': 'Medrecords.schema.schema'
     }
-
 
     TEMPLATES = [
         {
@@ -79,6 +77,11 @@ class Base(Configuration):
             'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
         },
     ]
+
+    AUTHENTICATION_BACKENDS = (
+        'django.contrib.auth.backends.ModelBackend',
+    )
+    AUTH_USER_MODEL = 'auth.User'
 
 
 class Gateway(Base):

@@ -1,8 +1,20 @@
 from Gateway.views.med_records import medView
+from django.contrib import admin
+from Gateway.views.login import Login
+from Gateway.views.logout import Logout
 from django.urls import path
 from django.conf.urls import url, include
+from django.conf.urls.static import static
+from django.conf import settings
 #3333
 
+
+admin.site.site_header = 'Gateway - Admin'
+
+
 urlpatterns = [
-    path('med-records/', medView.as_view())
-]
+    path('med-records/', medView.as_view()),
+    path('admin-gateway/', admin.site.urls),
+    path('login/', Login.as_view()),
+    path('logout/', Logout.as_view()),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

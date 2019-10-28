@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand
 from random import randint, getrandbits, choice
 from faker import Faker
 from Medrecords.models import Record, Patient
+from django.contrib.auth.models import User
 
 
 class Command(BaseCommand):
