@@ -85,6 +85,7 @@ class Base(Configuration):
 
 
 class Gateway(Base):
+    MED_RECORDS_API = os.environ.get('MED_RECORDS_API', 'http://192.168.0.90:4444/api/') 
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
