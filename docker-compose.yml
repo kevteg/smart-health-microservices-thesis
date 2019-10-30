@@ -1,6 +1,16 @@
 version: '2'
 
 services:
+    mhealth_db:
+        image: postgres
+        ports:
+            - 7432:5432
+        volumes:
+            - '.:/home'
+        environment:
+            - POSTGRES_USER=mhealth
+            - POSTGRES_PASSWORD=devpass
+            - POSTGRES_DB=mhealth_db
     med_records_db:
         image: postgres
         ports:
@@ -55,3 +65,20 @@ services:
             - POSTGRES_USER=medrecords
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=med_records_db
+    mhealth:
+        extends:
+            file: docker-template.yml
+            service: base
+        command: make runmhealth
+        volumes:
+            - .:/code
+        ports:
+            - 5555:5555
+        links:
+            - mhealth_db
+        environment: 
+            - DJANGO_CONFIGURATION=Mhealth
+            - DJANGO_SETTINGS_MODULE=settings
+            - POSTGRES_USER=mhealth
+            - POSTGRES_PASSWORD=devpass
+            - DB_NAME=mhealth_db

@@ -28,23 +28,7 @@ class Base(Configuration):
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ]
 
-    # Application definition
 
-    INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'Medrecords.apps.MedRecordsConfig',
-        'Gateway.apps.GatewayConfig',
-        'graphene_django',
-    ]
-
-    GRAPHENE = {
-        'SCHEMA': 'Medrecords.schema.schema'
-    }
 
     TEMPLATES = [
         {
@@ -85,6 +69,17 @@ class Base(Configuration):
 
 
 class Gateway(Base):
+    # Application definition
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'Gateway.apps.GatewayConfig',
+    ]
     MED_RECORDS_API = os.environ.get('MED_RECORDS_API', 'http://192.168.0.90:4444/api/') 
     DATABASES = {
         'default': {
@@ -98,6 +93,48 @@ class Gateway(Base):
 
 
 class Medrecords(Base):
+    # Application definition
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'Medrecords.apps.MedRecordsConfig',
+        'graphene_django',
+    ]
+    GRAPHENE = {
+        'SCHEMA': 'Medrecords.schema.schema'
+    }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+            'NAME': os.environ.get('DB_NAME'),
+            'HOST': os.environ.get('DB_NAME'),
+        }
+    }
+
+
+class Mhealth(Base):
+    # Application definition
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'Mhealth.apps.MhealthConfig',
+        'graphene_django',
+    ]
+    GRAPHENE = {
+        'SCHEMA': 'Mhealth.schema.schema'
+    }
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',

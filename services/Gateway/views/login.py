@@ -13,11 +13,10 @@ decorators = [csrf_exempt]
 class Login(View):
 
     def dispatch(self, request, *args, **kwargs):
-        username = request.POST['username']
-        password = request.POST['password']
+        username = request.POST.get('username')
+        password = request.POST.get('password')
         user = authenticate(request, username=username, password=password)
-        print(user.groups)
-        if user is not None:
+        if user:
             login(request, user)
             return JsonResponse({'In': True}, status=200)
         else:
