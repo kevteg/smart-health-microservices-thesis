@@ -1,6 +1,16 @@
 version: '2'
 
 services:
+    statistics_db:
+        image: postgres
+        ports:
+            - 8432:5432
+        volumes:
+            - '.:/home'
+        environment:
+            - POSTGRES_USER=statistics
+            - POSTGRES_PASSWORD=devpass
+            - POSTGRES_DB=statistics_db
     mhealth_db:
         image: postgres
         ports:
@@ -82,3 +92,20 @@ services:
             - POSTGRES_USER=mhealth
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=mhealth_db
+    statistics:
+        extends:
+            file: docker-template.yml
+            service: base
+        command: make runstatistics
+        volumes:
+            - .:/code
+        ports:
+            - 6666:6666
+        links:
+            - statistics_db
+        environment: 
+            - DJANGO_CONFIGURATION=Statistics
+            - DJANGO_SETTINGS_MODULE=settings
+            - POSTGRES_USER=statistics
+            - POSTGRES_PASSWORD=devpass
+            - DB_NAME=statistics_db

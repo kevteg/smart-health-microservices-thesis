@@ -145,3 +145,25 @@ class Mhealth(Base):
         }
     }
 
+
+class Statistics(Base):
+    # Application definition
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'Statistics.apps.StatisticsConfig',
+    ]
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+            'NAME': os.environ.get('DB_NAME'),
+            'HOST': os.environ.get('DB_NAME'),
+        }
+    }
