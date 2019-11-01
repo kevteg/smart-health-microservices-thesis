@@ -80,7 +80,7 @@ class Gateway(Base):
         'django.contrib.staticfiles',
         'Gateway.apps.GatewayConfig',
     ]
-    MED_RECORDS_API = os.environ.get('MED_RECORDS_API', 'http://192.168.0.90:4444/api/') 
+    MED_RECORDS_URL = os.environ.get('MED_RECORDS_URL', 'http://192.168.0.90:4444') 
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',

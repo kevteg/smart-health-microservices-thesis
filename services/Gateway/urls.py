@@ -1,7 +1,7 @@
 from Gateway.views.med_records import medView
 from django.contrib import admin
-from Gateway.views.login import Login
-from Gateway.views.logout import Logout
+from utils.views.login import Login
+from utils.views.logout import Logout
 from django.urls import path
 from django.conf.urls import url, include
 from django.conf.urls.static import static

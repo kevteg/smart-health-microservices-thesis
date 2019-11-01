@@ -9,7 +9,7 @@ from django.contrib.auth.mixins import UserPassesTestMixin
 
 
 decorators = [csrf_exempt]
-MED_RECORDS_API = settings.MED_RECORDS_API 
+MED_RECORDS_URL = settings.MED_RECORDS_URL 
 
 
 @method_decorator(decorators, name='dispatch')
@@ -18,8 +18,8 @@ class medView(View):
     def dispatch(self, request, *args, **kwargs):
         user = request.user
         if user and user.is_superuser:
-            data = arguments = json.loads(request.body)
-            response = requests.post(MED_RECORDS_API, json=data)
+            data = json.loads(request.body)
+            response = requests.post(f'{MED_RECORDS_URL}/api/', json=data)
             response = JsonResponse(response.json(), status=200)
         else:
             response = JsonResponse({'authentication-error': True}, status=503)
