@@ -69,6 +69,8 @@ class Base(Configuration):
 
 
 class Gateway(Base):
+    MED_RECORDS_URL = os.environ.get('MED_RECORDS_URL', 'http://192.168.0.90:4444') 
+    MHEALTH_URL = os.environ.get('MHEALTH_URL', 'http://192.168.0.90:5555') 
     # Application definition
 
     INSTALLED_APPS = [
@@ -80,7 +82,6 @@ class Gateway(Base):
         'django.contrib.staticfiles',
         'Gateway.apps.GatewayConfig',
     ]
-    MED_RECORDS_URL = os.environ.get('MED_RECORDS_URL', 'http://192.168.0.90:4444') 
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -134,6 +135,33 @@ class Mhealth(Base):
     ]
     GRAPHENE = {
         'SCHEMA': 'Mhealth.schema.schema'
+    }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+            'NAME': os.environ.get('DB_NAME'),
+            'HOST': os.environ.get('DB_NAME'),
+        }
+    }
+
+
+class Metadata(Base):
+    # Application definition
+
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'Metadata.apps.MetadataConfig',
+        'graphene_django',
+    ]
+    GRAPHENE = {
+        'SCHEMA': 'Metadata.schema.schema'
     }
     DATABASES = {
         'default': {

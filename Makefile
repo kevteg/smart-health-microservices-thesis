@@ -11,6 +11,9 @@ runmhealth:
 runstatistics:
 	cd services && gunicorn -b "0.0.0.0:6666" --timeout 180 --reload --log-level debug --error-logfile - wsgi
 
+runmetadata:
+	cd services && gunicorn -b "0.0.0.0:7777" --timeout 180 --reload --log-level debug --error-logfile - wsgi
+
 migrate:
 	cd services && python manage.py migrate
 
