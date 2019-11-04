@@ -1,2 +1,2 @@
-# thesis-dev
-This repo is to keep the development related with my thesis
+# smart-health-microservices-thesis
+Repo to keep the development related with my microservices thesis
