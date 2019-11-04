@@ -1,6 +1,0 @@
-
-Agregar una carpeta utils con las que cosas que se reusan
-en med_records y mhealth crear una usuario para estadisticas
-conseguir una libreria para estadisticas
-recrear gateway en estadisticas
-path('api/', user_passes_test(logged_user, login_url='/login/')(csrf_exempt(GraphQLView.as_view(graphiql=True)))),
