@@ -82,6 +82,7 @@ class Base(Configuration):
 class Gateway(Base):
     MED_RECORDS_URL = os.environ.get('MED_RECORDS_URL', 'http://192.168.0.90:4444') 
     MHEALTH_URL = os.environ.get('MHEALTH_URL', 'http://192.168.0.90:5555') 
+    METADATA_URL = os.environ.get('METADATA_URL', 'http://192.168.0.90:7777') 
     # Application definition
 
     INSTALLED_APPS = [
