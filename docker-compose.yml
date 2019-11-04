@@ -68,6 +68,7 @@ services:
             - POSTGRES_USER=gateway
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=gateway_db
+            - DB_HOST=gateway_db
     med_records:
         extends:
             file: docker-template.yml
@@ -85,6 +86,7 @@ services:
             - POSTGRES_USER=medrecords
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=med_records_db
+            - DB_HOST=med_records_db
     mhealth:
         extends:
             file: docker-template.yml
@@ -102,6 +104,7 @@ services:
             - POSTGRES_USER=mhealth
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=mhealth_db
+            - DB_HOST=mhealth_db
     statistics:
         extends:
             file: docker-template.yml
@@ -119,6 +122,7 @@ services:
             - POSTGRES_USER=statistics
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=statistics_db
+            - DB_HOST=statistics_db
     metadata:
         extends:
             file: docker-template.yml
@@ -136,3 +140,4 @@ services:
             - POSTGRES_USER=metadata
             - POSTGRES_PASSWORD=devpass
             - DB_NAME=metadata_db
+            - DB_HOST=metadata_db
