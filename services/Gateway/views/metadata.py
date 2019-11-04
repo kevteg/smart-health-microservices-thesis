@@ -13,7 +13,7 @@ METADATA_URL = settings.METADATA_URL
 
 
 @method_decorator(decorators, name='dispatch')
-class medView(View):
+class MetadataView(View):
 
     def dispatch(self, request, *args, **kwargs):
         user = request.user
