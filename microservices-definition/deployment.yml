@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smart-health-thesis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: smart-health-thesis
+  template:
+    metadata:
+      labels:
+        app: smart-health-thesis
+    spec:
+      containers:
+      - name: gateway
+        image: kevteg/smart-health-thesis
+        imagePullPolicy: "Always"
+        ports:
+          - containerPort: 3333
+        env:
+          - name: DJANGO_CONFIGURATION
+            value: Gateway
+          - name: DJANGO_SETTINGS_MODULE
+            value: settings
+          - name: POSTGRES_USER
+            value: doadmin
+          - name: POSTGRES_PASSWORD
+            value: POSTGRES_PASSWORD
+          - name: DB_NAME
+            value: gateway_db
+          - name: DB_HOST
+            value: DB_HOST
+          - name: DB_PORT
+            value: "25060"
+        command: ['sh', '-c', 'make rungateway']
+
+      - name: medrecords 
+        image: kevteg/smart-health-thesis
+        imagePullPolicy: "Always"
+        ports:
+          - containerPort: 4444
+        env:
+          - name: DJANGO_CONFIGURATION
+            value: Medrecords
+          - name: DJANGO_SETTINGS_MODULE
+            value: settings
+          - name: POSTGRES_USER
+            value: doadmin
+          - name: POSTGRES_PASSWORD
+            value: POSTGRES_PASSWORD
+          - name: DB_NAME
+            value: medrecords_db
+          - name: DB_HOST
+            value: DB_HOST
+          - name: DB_PORT
+            value: "25060"
+        command: ['sh', '-c', 'make runmedrecords']
+
+      - name: mhealth 
+        image: kevteg/smart-health-thesis
+        imagePullPolicy: "Always"
+        ports:
+          - containerPort: 5555
+        env:
+          - name: DJANGO_CONFIGURATION
+            value: Mhealth
+          - name: DJANGO_SETTINGS_MODULE
+            value: settings
+          - name: POSTGRES_USER
+            value: doadmin
+          - name: POSTGRES_PASSWORD
+            value: POSTGRES_PASSWORD
+          - name: DB_NAME
+            value: mhealth_db
+          - name: DB_HOST
+            value: DB_HOST
+          - name: DB_PORT
+            value: "25060"
+        command: ['sh', '-c', 'make runmhealth']
+
+      - name: metadata 
+        image: kevteg/smart-health-thesis
+        imagePullPolicy: "Always"
+        ports:
+          - containerPort: 7777
+        env:
+          - name: DJANGO_CONFIGURATION
+            value: Metadata
+          - name: DJANGO_SETTINGS_MODULE
+            value: settings
+          - name: POSTGRES_USER
+            value: doadmin
+          - name: POSTGRES_PASSWORD
+            value: POSTGRES_PASSWORD
+          - name: DB_NAME
+            value: metadata_db
+          - name: DB_HOST
+            value: DB_HOST
+          - name: DB_PORT
+            value: "25060"
+        command: ['sh', '-c', 'make runmetadata']

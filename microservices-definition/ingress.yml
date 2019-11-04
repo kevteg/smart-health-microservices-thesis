@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: fanout-ingress
+  annotations:
+      nginx.ingress.kubernetes.io/rewrite-target:  /$2
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /gateway(/|$)(.*)
+        backend:
+          serviceName: gateway-cluster-ip
+          servicePort: 80
+      - path: /medrecords(/|$)(.*)
+        backend:
+          serviceName: medrecords-cluster-ip
+          servicePort: 80
+      - path: /mhealth(/|$)(.*)
+        backend:
+          serviceName: mhealth-cluster-ip
+          servicePort: 80
+      - path: /metadata(/|$)(.*)
+        backend:
+          serviceName: metadata-cluster-ip
+          servicePort: 80
