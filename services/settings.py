@@ -67,6 +67,17 @@ class Base(Configuration):
     )
     AUTH_USER_MODEL = 'auth.User'
 
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'USER': os.environ.get('POSTGRES_USER'),
+            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+            'NAME': os.environ.get('DB_NAME'),
+            'HOST': os.environ.get('DB_HOST'),
+            'PORT': os.environ.get('DB_PORT', 5432)
+        }
+    }
+
 
 class Gateway(Base):
     MED_RECORDS_URL = os.environ.get('MED_RECORDS_URL', 'http://192.168.0.90:4444') 
@@ -82,15 +93,6 @@ class Gateway(Base):
         'django.contrib.staticfiles',
         'Gateway.apps.GatewayConfig',
     ]
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRES_USER'),
-            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-            'NAME': os.environ.get('DB_NAME'),
-            'HOST': os.environ.get('DB_NAME'),
-        }
-    }
 
 
 class Medrecords(Base):
@@ -108,15 +110,6 @@ class Medrecords(Base):
     ]
     GRAPHENE = {
         'SCHEMA': 'Medrecords.schema.schema'
-    }
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRES_USER'),
-            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-            'NAME': os.environ.get('DB_NAME'),
-            'HOST': os.environ.get('DB_NAME'),
-        }
     }
 
 
@@ -136,15 +129,6 @@ class Mhealth(Base):
     GRAPHENE = {
         'SCHEMA': 'Mhealth.schema.schema'
     }
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRES_USER'),
-            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-            'NAME': os.environ.get('DB_NAME'),
-            'HOST': os.environ.get('DB_NAME'),
-        }
-    }
 
 
 class Metadata(Base):
@@ -163,15 +147,6 @@ class Metadata(Base):
     GRAPHENE = {
         'SCHEMA': 'Metadata.schema.schema'
     }
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRES_USER'),
-            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-            'NAME': os.environ.get('DB_NAME'),
-            'HOST': os.environ.get('DB_NAME'),
-        }
-    }
 
 
 class Statistics(Base):
@@ -186,12 +161,3 @@ class Statistics(Base):
         'django.contrib.staticfiles',
         'Statistics.apps.StatisticsConfig',
     ]
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': os.environ.get('POSTGRES_USER'),
-            'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-            'NAME': os.environ.get('DB_NAME'),
-            'HOST': os.environ.get('DB_NAME'),
-        }
-    }
