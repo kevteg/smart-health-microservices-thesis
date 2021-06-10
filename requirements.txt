@@ -1,4 +1,4 @@
-django==2.2.6
+django==2.2.24
 graphene-django>=2.0
 gunicorn==19.9.0
 django-configurations==2.1
